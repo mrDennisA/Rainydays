@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Transat text";
+  src: url("https://use.typekit.net/qqh1vxj.css");
+}
+
+body {
+  font-family: "Transat text", Arial;
+}
+
+header {
+  background: #bf6930;
+  color: #faf8f5;
+}
+
+header nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #faf8f5;
+}
+
+header nav a:hover {
+  color: #0a3641;
+}
+
+header nav li {
+  display: inline-block;
+}
+header nav ul {
+  padding: 10px;
+  word-spacing: 30px;
+}
+
+main {
+  color: #0a3641;
+}
+main nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #0a3641;
+}
+
+main nav a:hover {
+  text-decoration: underline;
+}
+
+main nav li {
+  display: inline-block;
+}
+main nav ul {
+  word-spacing: 30px;
+}
+
+footer {
+  background: #95a2a6;
+  color: #faf8f5;
+}
+
+footer::before,
+footer::after {
+  content: " / ";
+}
