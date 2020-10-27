@@ -1,0 +1,90 @@
+.m_wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  max-width: 80rem;
+  margin: auto;
+  height: 100%;
+  color: var(--color01);
+  padding: 1rem;
+}
+
+.m_breadcrumb {
+  display: flex;
+}
+
+ul.m_breadcrumb li + li:before {
+  padding: 0.125rem;
+  content: "/\00a0";
+}
+
+.m_breadcrumb > li {
+  padding: 0.125rem;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.m_breadcrumb a:hover {
+  text-decoration-line: underline;
+}
+
+main a {
+  color: var(--color01);
+}
+
+.m_banner-title {
+  color: var(--color05);
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.m_banner-bg {
+  height: 400px;
+  max-height: 30vw;
+  min-height: 15vh;
+  background-size: cover;
+  background-position: center top;
+  background-image: url("../images/about-us_bannerx2.png");
+}
+
+.m_txt {
+  max-width: 50rem;
+  margin: auto;
+}
+
+.m_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color01);
+}
+
+@media only screen and (max-width: 834.9px) {
+  .m_grid-product {
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  }
+
+  .m_title {
+    color: var(--color01);
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 834px) {
+  .m_grid-product {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+
+  .m_grd-lnk {
+    grid-template-areas: "mi01 mi02 mi03";
+  }
+  .m_lnk-img-size {
+    max-height: 30vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .m_lnk-btn {
+    width: 13rem;
+    background: var(--color05);
+  }
+}

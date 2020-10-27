@@ -150,10 +150,14 @@ main a {
     grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   }
 
+  .m_banner-title {
+    font-weight: 500;
+    font-size: 2.1875rem;
+  }
+
   .m_title {
     color: var(--color01);
 
-    padding: 2rem 0 0rem;
     font-weight: 500;
     font-size: 1.25rem;
   }
@@ -180,6 +184,11 @@ main a {
 @media only screen and (min-width: 834px) {
   .m_grid-product {
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+
+  .m_banner-title {
+    font-weight: 700;
+    font-size: 2.8125rem;
   }
 
   .m_grd-lnk {
