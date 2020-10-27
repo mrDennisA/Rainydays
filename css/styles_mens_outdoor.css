@@ -47,12 +47,14 @@ main a {
 }
 
 .m_filter {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   max-width: 80rem;
   margin: auto;
   color: var(--color01);
-  padding: 1rem 0 0;
+
   border-bottom: 1px rgba(10, 54, 65, 0.5) solid;
 }
 

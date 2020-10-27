@@ -43,13 +43,14 @@ main a {
   min-height: 15vh;
   background-size: cover;
   background-position: center top;
-  background-image: url("../images/mens/mens_banner_01.png");
+  background-image: url("../images/mens/mens_banner.png");
 }
 
 .m_title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   color: var(--color01);
-  text-align: center;
-  padding: 2rem 0 0rem;
 }
 
 .m_grid-product {
@@ -151,7 +152,7 @@ main a {
 
   .m_title {
     color: var(--color01);
-    text-align: center;
+
     padding: 2rem 0 0rem;
     font-weight: 500;
     font-size: 1.25rem;
