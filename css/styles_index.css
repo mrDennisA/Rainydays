@@ -12,6 +12,8 @@ body {
 }
 
 .m_cta-menu {
+  max-width: 80rem;
+  margin: auto;
 }
 
 .m-cta-txt {
@@ -21,4 +23,7 @@ body {
 }
 
 .m_cta-lnk {
+}
+
+._grd-idx {
 }
