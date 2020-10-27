@@ -1,40 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <title>Rainydays</title>
+    <meta charset="utf-8">
     <meta name="descriotion" content="index" />
     <meta name="veiwport" content="width=device-width, initial-scal=1.0" />
-    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles_global.css">
+    <link rel="stylesheet" href="./css/styles_header.css">
+    <link rel="stylesheet" href="./css/styles_home.css">
+    <link rel="stylesheet" href="./css/styles_footer.css">
   </head>
   <body>
+
+    <!-- HEADER -->
     <header>
+
+      <div class="h_feed h6_font">live feed</div>
       <nav>
-        <li>
-          <a href="index.html"
-            ><img
-              src="images/logo/rainydays_logo_v2_white.png"
-              alt="Rainydays"
-              width="200"
-          /></a>
-        </li>
-        <li><a href="men/men.html">Men</a></li>
-        <li><a href="women/women.html">Women</a></li>
+        <div class="h_flex"><a class="h_logo" href="#"><img class="h_logosize" src="../images/logo/rainydays_logo.svg" alt="Rainydays"></a></div>
+        <input type="checkbox" id="h_btn" class="h_btn">
+        <label for="h_btn" class="h_toggle"></label>
+        <div class="h_menu01 h5_font">
+          <div class="h_menugroup01 ">
+            <label for="h_btn-01" class="h_label">MENS +</label>
+            <a class="h_labellink" href="#">MENS</a>
+            <input type="checkbox" id="h_btn-01">
+            <ul class="h_submenu h6_font">
+              <li><a href="#">Outdoor</a></li>
+              <li><a href="#">Skiing</a></li>
+              <li><a href="#">Canoeing</a></li>
+            </ul>
+          </div>
+          <div class="h_menugroup01">
+            <label for="h_btn-02" class="h_label">WOMENS +</label>
+            <a class="h_labellink" href="#">WOMENS</a>
+            <input type="checkbox" id="h_btn-02">
+            <ul class="h_submenu h6_font">
+              <li><a href="#">Outdoor</a></li>
+              <li><a href="#">Skiing</a></li>
+              <li><a href="#">Canoeing</a></li>
+            </ul>
+          </div>
+          <div class="h_menugroup01">
+            <label for="h_btn-03" class="h_label">EXPLORE +</label>
+            <a class="h_labellink" href="#">EXPLORE</a>
+            <input type="checkbox" id="h_btn-03">
+            <div  class="h_submenu h6_font">
+              <a href="#">New Arrivel</a>
+            </div>
+          </div>
+          <div class="h_menugroup02">
+            <input class="h_search h6_font" type="text" placeholder="Search..">
+          </div>
+        </div>
+        <div class="h_menu02">
+          <a class="h_cart" href="#"><img class="h_iconsize" src="../images/icons/cart.svg"></a>
+        </div>
       </nav>
+
     </header>
-    <main class="center">
-      <h1>Welcome to Rainydays</h1>
-      <div class="text-wrap">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+
+    <!-- MAIN -->
+    <main>
+
+      <div class="m_banner-bg">
+        <div class="m_cta-menu">
+          <div>
+            <div class="m_cta-text h2_font">PUSHING COMFORT ZONE</div>
+            <div class="m_cta-btn h4_font">
+              <a class="m_cta-link" href="#">SHOP MEN'S</a>
+              <a class="m_cta-link" href="#">SHOP WOMEN'S</a>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <div class="m_grid">
+        <div class="m_item01"><div class="m_img01-bg"></div></div>
+        <div class="m_item02"><div class="m_img02-bg"></div></div>
+        <div class="m_item03"><div class="m_img03-bg"></div></div>
+        <div class="m_item04"><div class="m_img04-bg"></div></div>
+      </div>
+
     </main>
-    <footer class="center">Copyright &copy</footer>
+
+    <!--Footer-->
+    <footer>
+      <div class="f_menu00">
+        <div class="f_menu01 f_item01">
+          <div class="f_size01">
+            <h5>SIGN UP FOR OUR NEWSLETTER</h5>
+            <h6>Be the first to new products, exclusive<br/>events, and online offers</h6>
+            <div class="f_email-btn h4_font"><a class="f_email-btn" href="#">Sign up For Emails</a></div>
+          </div>
+        </div>
+        <div class="f_menu02 f_item02 h6_font">
+          <ul class="f_size02">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Order Status</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+          <ul class="f_size02">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+        </div>
+        <div class="f_menu02 f_item03 h6_font">
+          <ul class="f_size03">
+            <li><a href="#">Press & Media</a></li>
+          </ul>
+          <ul class="f_size03">
+            <li><a href="#">Connect With Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="f_menu03 h6_font">
+        <ul class="f_size04">
+          <li class="test"><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <ul  class="f_size05">
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

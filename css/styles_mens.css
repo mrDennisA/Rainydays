@@ -1,0 +1,197 @@
+.m_wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  max-width: 80rem;
+  margin: auto;
+  height: 100%;
+  color: var(--color01);
+  padding: 1rem;
+}
+
+.m_breadcrumb {
+  display: flex;
+}
+
+ul.m_breadcrumb li + li:before {
+  padding: 0.125rem;
+  content: "/\00a0";
+}
+
+.m_breadcrumb > li {
+  padding: 0.125rem;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.m_breadcrumb a:hover {
+  text-decoration-line: underline;
+}
+
+main a {
+  color: var(--color01);
+}
+
+.m_banner-title {
+  color: var(--color05);
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.m_banner-bg {
+  height: 400px;
+  max-height: 30vw;
+  min-height: 15vh;
+  background-size: cover;
+  background-position: center top;
+  background-image: url("../images/mens/mens_banner_01.png");
+}
+
+.m_title {
+  color: var(--color01);
+  text-align: center;
+  padding: 2rem 0 0rem;
+}
+
+.m_grid-product {
+  box-sizing: border-box;
+  display: grid;
+  max-width: 80rem;
+  margin: auto;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.m_product {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  color: var(--color01);
+}
+
+.m_product:hover {
+  transition: 0.5s;
+  box-shadow: 0 0 0 1px var(--color02);
+}
+
+.m_product-img {
+  background: var(--color05);
+  width: 100%;
+}
+
+.m_stars {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--color02);
+}
+
+.m_stars-img {
+  width: 1rem;
+}
+
+.m_grd-item01 {
+  grid-area: mi01;
+}
+.m_grd-item02 {
+  grid-area: mi02;
+}
+.m_grd-item03 {
+  grid-area: mi03;
+}
+
+.m_grd-lnk {
+  box-sizing: border-box;
+  display: grid;
+  max-width: 80rem;
+  margin: auto;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.m_lnk-img-size {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+
+.m_lnk-img01-bg {
+  background-position: center top;
+  background-image: url("../images/mens/mens_link_01.png");
+}
+
+.m_lnk-img02-bg {
+  background-position: center top;
+  background-image: url("../images/mens/mens_link_02.png");
+}
+
+.m_lnk-img03-bg {
+  background-position: center;
+  background-image: url("../images/mens/mens_link_03.png");
+}
+
+.m_lnk-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+
+  box-shadow: 0 0 0px 1px rgba(10, 54, 65, 0.5) inset;
+}
+
+.m_lnk-btn:hover {
+  transition: 0.5s;
+  color: var(--color05);
+  background: var(--color03);
+  box-shadow: 0 0 0px 1px rgba(10, 54, 65, 0) inset;
+}
+
+@media only screen and (max-width: 834.9px) {
+  .m_grid-product {
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  }
+
+  .m_title {
+    color: var(--color01);
+    text-align: center;
+    padding: 2rem 0 0rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+
+  .m_grd-lnk {
+    grid-template-areas:
+      "mi01"
+      "mi02"
+      "mi03";
+  }
+
+  .m_lnk-img-size {
+    max-height: 45vw;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .m_lnk-btn {
+    width: 100%;
+    background: rgba(250, 248, 245, 0.75);
+  }
+}
+
+@media only screen and (min-width: 834px) {
+  .m_grid-product {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+
+  .m_grd-lnk {
+    grid-template-areas: "mi01 mi02 mi03";
+  }
+  .m_lnk-img-size {
+    max-height: 30vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .m_lnk-btn {
+    width: 13rem;
+    background: var(--color05);
+  }
+}

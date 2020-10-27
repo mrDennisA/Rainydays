@@ -1,0 +1,106 @@
+@import url("https://use.typekit.net/qqh1vxj.css");
+
+:root {
+  --color01: #0a3641;
+  --color02: #95a2a6;
+  --color03: #bf6930;
+  --color04: #d9974c;
+  --color05: #faf8f5;
+  --color06: white;
+
+  --font01: "transat-text", sans-serif;
+
+  --nav-hight: 4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font01);
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.spacing01 {
+  height: 4rem;
+}
+
+/* Colors Class*/
+.c01 {
+  color: var(--color01);
+}
+.c02 {
+  color: var(--color03);
+}
+.c03 {
+  color: var(--color03);
+}
+.c04 {
+  color: var(--color04);
+}
+.c05 {
+  color: var(--color05);
+}
+.c06 {
+  color: var(--color06);
+}
+
+/* Background Colors Class */
+.b01 {
+  color: var(--color01);
+}
+.b02 {
+  color: var(--color03);
+}
+.b03 {
+  color: var(--color03);
+}
+.b04 {
+  color: var(--color04);
+}
+.b05 {
+  color: var(--color05);
+}
+.b06 {
+  color: var(--color06);
+}
+/* Typography */
+h1,
+.h1_font {
+  font-weight: 700;
+  font-size: 2.8125rem;
+}
+h2,
+.h2_font {
+  font-weight: 500;
+  font-size: 2.1875rem;
+}
+h3,
+.h3_font {
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+h4,
+.h4_font {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+h5,
+.h5_font {
+  font-weight: 500;
+  font-size: 0.9375rem;
+}
+h6,
+.h6_font {
+  font-weight: 300;
+  font-size: 0.9375rem;
+}
+
+/* Border helpers */
+nav,
+div,
+span,
+ul,
+li {
+  box-shadow: inset 0px 0px 0px 1px rgb(0, 0, 0);
+}
