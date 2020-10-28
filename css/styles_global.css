@@ -16,16 +16,44 @@
 * {
   margin: 0;
   padding: 0;
+  color: var(--color01);
   font-family: var(--font01);
   list-style-type: none;
   text-decoration: none;
 }
 
+body {
+  overflow-y: scroll;
+}
+
+/* Wrapper */
+
+[class^="wrapper"] {
+  box-sizing: border-box;
+  display: flex;
+  margin: auto;
+}
+
+.icon01 {
+  width: 1.5rem;
+}
+
+.icon02 {
+  width: 2.5rem;
+}
+
+/* Spacing */
 .spacing01 {
   height: 4rem;
 }
+.spacing02 {
+  height: 8rem;
+}
+.spacing03 {
+  height: 16rem;
+}
 
-/* Colors Class*/
+/* Color Class*/
 .c01 {
   color: var(--color01);
 }
@@ -45,53 +73,54 @@
   color: var(--color06);
 }
 
-/* Background Colors Class */
+/* Background Color Class */
 .b01 {
-  color: var(--color01);
+  background: var(--color01);
 }
 .b02 {
-  color: var(--color03);
+  background: var(--color03);
 }
 .b03 {
-  color: var(--color03);
+  background: var(--color03);
 }
 .b04 {
-  color: var(--color04);
+  background: var(--color04);
 }
 .b05 {
-  color: var(--color05);
+  background: var(--color05);
 }
 .b06 {
-  color: var(--color06);
+  background: var(--color06);
 }
+
 /* Typography */
 h1,
-.h1_font {
+.font-h1 {
   font-weight: 700;
   font-size: 2.8125rem;
 }
 h2,
-.h2_font {
+.font-h2 {
   font-weight: 500;
   font-size: 2.1875rem;
 }
 h3,
-.h3_font {
+.font-h3 {
   font-weight: 300;
   font-size: 1.25rem;
 }
 h4,
-.h4_font {
+.font-h4 {
   font-weight: 500;
   font-size: 1.25rem;
 }
 h5,
-.h5_font {
+.font-h5 {
   font-weight: 500;
   font-size: 0.9375rem;
 }
 h6,
-.h6_font {
+.font-h6 {
   font-weight: 300;
   font-size: 0.9375rem;
 }
