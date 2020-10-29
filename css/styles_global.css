@@ -26,8 +26,6 @@ body {
   overflow-y: scroll;
 }
 
-/* Wrapper */
-
 [class^="wrapper"] {
   box-sizing: border-box;
   display: flex;
@@ -42,14 +40,23 @@ body {
   width: 2.5rem;
 }
 
+.stars {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* Spacing */
 .spacing01 {
-  height: 4rem;
+  height: 2rem;
 }
 .spacing02 {
-  height: 8rem;
+  height: 4rem;
 }
 .spacing03 {
+  height: 8rem;
+}
+
+.spacing04 {
   height: 16rem;
 }
 
@@ -58,7 +65,7 @@ body {
   color: var(--color01);
 }
 .c02 {
-  color: var(--color03);
+  color: var(--color02);
 }
 .c03 {
   color: var(--color03);

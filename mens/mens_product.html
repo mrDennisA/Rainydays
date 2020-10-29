@@ -6,7 +6,7 @@
     <meta name="veiwport" content="width=device-width, initial-scal=1.0" />
     <link rel="stylesheet" href="../css/styles_global.css">
     <link rel="stylesheet" href="../css/styles_header.css">
-    <link rel="stylesheet" href="../css/styles_contact.css">
+    <link rel="stylesheet" href="../css/styles_mens_product.css">
     <link rel="stylesheet" href="../css/styles_footer.css">
   </head>
   <body>
@@ -16,18 +16,18 @@
 
       <div class="h_feed font-h6">live feed</div>
       <nav>
-        <div class="h_flex"><a class="h_logo" href="./index.html"><img class="h_logosize" src="../images/logo/rainydays_logo.svg" alt="Rainydays"></a></div>
+        <div class="h_flex"><a class="h_logo" href="../index.html"><img class="h_logosize" src="../images/logo/rainydays_logo.svg" alt="Rainydays"></a></div>
         <input type="checkbox" id="h_btn" class="h_btn">
         <label for="h_btn" class="h_toggle"></label>
         <div class="h_menu01 font-h5">
           <div class="h_menugroup01 ">
             <label for="h_btn-01" class="h_label">MENS +</label>
-            <a class="h_labellink" href="./mens/mens.html">MENS</a>
+            <a class="h_labellink" href="./mens.html">MENS</a>
             <input type="checkbox" id="h_btn-01">
             <ul class="h_submenu font-h6">
-              <li><a href="./mens/mens_outdoor.html">Outdoor</a></li>
-              <li><a href="./mens/mens_skiing.html">Skiing</a></li>
-              <li><a href="./mens/mens_canoeing.html">Canoeing</a></li>
+              <li><a href="./mens_outdoor.html">Outdoor</a></li>
+              <li><a href="./mens_skiing.html">Skiing</a></li>
+              <li><a href="./mens_canoeing.html">Canoeing</a></li>
             </ul>
           </div>
           <div class="h_menugroup01">
@@ -49,7 +49,7 @@
             </div>
           </div>
           <div class="h_menugroup02">
-            <input class="h_search h6_font" type="text" placeholder="Search..">
+            <input class="h_search font-h6" type="text" placeholder="Search..">
           </div>
         </div>
         <div class="h_menu02">
@@ -61,40 +61,60 @@
 
     <!-- MAIN -->
     <main>
-
-      <ul class="wrapper-breadcrumb font-h6">
-        <li><a href="../index.html">RAINYDAYS</a></li>
-        <li>CONTACT US</li>
-      </ul>
-
-      <div class="wrapper-contact font-h6">
-          <p class="font-h2">Contact Us</p>
-          <ul>
-            <li><img src="./images/icons/phone.svg"></li>
-            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-               eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
-               voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet 
-               clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-            </li>
-          </ul>
-          <ul>
-            <li><img src="./images/icons/email.svg"></li>
-            <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-               doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            </li>
-          </ul>
-          <ul>
-            <li><img src="./images/icons/shipping.svg"></li>
-            <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-              doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-              veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            </li>
-          </ul>
-          <div class="spacing03"></div>
+      <div class="wrapper-body">
+        <ul class="breadcrumb spacing02 font-h6">
+          <li><a href="../index.html">RAINYDAYS</a></li>
+          <li><a href="../index.html">MENS</a></li>
+          <li><a href="../index.html">OUTDOOR</a></li>
+          <li>JACKET</li>
+        </ul>
+        <div>
+          <div class="product">
+            <div><img src="../images/mens/mens_product_01_x2.png"></div>
+            <ul  class="product-menu">
+              <li class="stars">
+                <img src="../images/icons/star_03.svg" alt="Star full">
+                <img src="../images/icons/star_03.svg" alt="Star full">
+                <img src="../images/icons/star_03.svg" alt="Star full">
+                <img src="../images/icons/star_02.svg" alt="Star half">
+                <img src="../images/icons/star_01.svg" alt="Star empty">
+              <p class="h6_font c02">(123)</p></li>
+              <ul class="product-description">
+                <li class="font-h3">Product Name</li>
+                <li class="font-h2">Product Description</li>
+                <li class="font-h1">Price 123</li>
+                <li class="font-h6">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et</li>
+              </ul>
+              <ul class="product-color">
+                  <li class="font-h3 c02">Color:</li>
+                <ul>
+                  <li class="color-size lightsalmon"></li>
+                  <li class="color-size lightseagreen"></li>
+                </ul>
+              </ul>
+              <ul class="product-size">
+                <li class="font-h3 c02">Select size:</li>
+                <ul class="font-h4">
+                  <li>S</li>
+                  <li>M</li>
+                  <li>L</li>
+                  <li>XL</li>
+                  <li>XXL</li>
+                </ul>
+              </ul>
+              <ul class="product-btn">
+                <li class="font-h4 c05">ADD TO CART</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+        <div class="spacing01"></div>
+        <div class="product-info">
+          <div><p class="font-h2">About Product</p></div>
+          <p class="spacing03 font-h6">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea</p>
+        </div>
       </div>
-      
-      <div class="wrapper spacing01"></div>
+      <div class="spacing02"></div>
 
     </main>
 
@@ -105,23 +125,23 @@
           <div class="f_size01">
             <h5>SIGN UP FOR OUR NEWSLETTER</h5>
             <h6>Be the first to new products, exclusive<br/>events, and online offers</h6>
-            <div class="f_email-btn h4_font"><a class="f_email-btn" href="#">Sign up For Emails</a></div>
+            <div class="f_email-btn font-h4"><a class="f_email-btn" href="#">Sign up For Emails</a></div>
           </div>
         </div>
-        <div class="f_menu02 f_item02 h6_font">
+        <div class="f_menu02 f_item02 font-h6">
           <ul class="f_size02">
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
             <li><a href="#">Shipping</a></li>
             <li><a href="#">Order Status</a></li>
             <li><a href="#">Returns</a></li>
           </ul>
           <ul class="f_size02">
-            <li><a href="./about_us.html">About Us</a></li>
+            <li><a href="../about.html">About Us</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">News</a></li>
           </ul>
         </div>
-        <div class="f_menu02 f_item03 h6_font">
+        <div class="f_menu02 f_item03 font-h6">
           <ul class="f_size03">
             <li><a href="#">Press & Media</a></li>
           </ul>
@@ -130,7 +150,7 @@
           </ul>
         </div>
       </div>
-      <div class="f_menu03 h6_font">
+      <div class="f_menu03 font-h6">
         <ul class="f_size04">
           <li class="test"><a href="#">Cookie Policy</a></li>
           <li><a href="#">Privacy Policy</a></li>
@@ -141,5 +161,6 @@
         </ul>
       </div>
     </footer>
+
   </body>
 </html>
