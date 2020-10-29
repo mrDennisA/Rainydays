@@ -47,44 +47,22 @@ main a {
 }
 
 .m_txt {
+  box-sizing: border-box;
   max-width: 50rem;
   margin: auto;
+  background: var(--color05);
+  padding: 1rem;
 }
 
-.m_title {
+.m_txt p {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--color01);
+  padding: 1rem;
 }
 
 @media only screen and (max-width: 834.9px) {
-  .m_grid-product {
-    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-  }
-
-  .m_title {
-    color: var(--color01);
-    text-align: center;
-  }
-}
-
-@media only screen and (min-width: 834px) {
-  .m_grid-product {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  }
-
-  .m_grd-lnk {
-    grid-template-areas: "mi01 mi02 mi03";
-  }
-  .m_lnk-img-size {
-    max-height: 30vw;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .m_lnk-btn {
-    width: 13rem;
-    background: var(--color05);
+  .m_txt {
+    max-width: 25rem;
   }
 }
