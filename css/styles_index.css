@@ -1,21 +1,62 @@
-body {
-  margin: auto;
-}
-
-.m_banner-bg {
+/* BANNER */
+.wrapper-banner {
   height: 600px;
-  max-height: 25vh;
+  max-height: 30vh;
   min-height: 30vw;
+
   background-position: center top;
   background-size: cover;
   background-image: url("../images/index_banner_01.png");
 }
 
-.m_cta-menu {
+.wrapper-banner > div {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
   max-width: 80rem;
   margin: auto;
 }
 
+.banner-menu {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 60%;
+  font-weight: 500;
+  font-size: 0.9375rem;
+}
+
+.banner-btn {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.banner-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  max-width: 12.5rem;
+  height: 2.5rem;
+  margin: 0.25rem;
+  box-shadow: 0 0 0 1px var(--color01) inset;
+  background: var(--color05);
+  font-weight: 500;
+  font-size: 0.9375rem;
+}
+
+.banner-btn a:hover {
+  transition: 0.5s;
+  color: var(--color05);
+  background: var(--color01);
+}
+
+/* GRID */
 .m-cta-txt {
 }
 
@@ -26,4 +67,26 @@ body {
 }
 
 ._grd-idx {
+}
+
+@media only screen and (min-width: 1024px) {
+  /* BANNER */
+  .banner-menu {
+    width: 50%;
+    font-weight: 500;
+    font-size: 2.1875rem;
+  }
+
+  .banner-btn {
+    flex-flow: row;
+    width: 25rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+
+  .banner-btn a {
+    max-width: none;
+  }
+
+  /* GRID */
 }

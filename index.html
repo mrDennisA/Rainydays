@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="descriotion" content="index" />
-    <meta name="veiwport" content="width=device-width, initial-scal=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="descriotion" content="index">
     <link rel="stylesheet" href="./css/styles_global.css">
     <link rel="stylesheet" href="./css/styles_header.css">
     <link rel="stylesheet" href="./css/styles_index.css">
@@ -59,8 +60,23 @@
 
     <!-- MAIN -->
     <main>
-
-      <div class="m_banner-bg">
+      <!-- BANNER -->
+      <div class="wrapper-banner">
+        <div>
+          <div class="banner-menu">
+            <p>PUSHING COMFORT ZONE</p>
+            <div class="banner-btn">
+              <a href="#">MENS</a>
+              <a href="#">WOMENS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <!--<div class="m_banner-bg">
         <div class="m_cta-menu">
           <div>
             <div class="m_cta-txt font-h2">PUSHING COMFORT ZONE</div>
@@ -70,7 +86,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
 
       <div class="m_grd-idx">
         <div class="m_grd-itm01"><div class="m_img01-bg"></div></div>
@@ -82,45 +98,50 @@
     </main>
 
     <!--Footer-->
-    <footer>
-      <div class="f_menu00">
-        <div class="f_menu01 f_item01">
-          <div class="f_size01">
-            <h5>SIGN UP FOR OUR NEWSLETTER</h5>
-            <h6>Be the first to new products, exclusive<br/>events, and online offers</h6>
-            <div class="f_email-btn font-h4"><a class="f_email-btn" href="#">Sign up For Emails</a></div>
-          </div>
+    <footer class="font-h6 b02">
+      <div class="wrapper">
+        <!-- Email -->
+        <div class="wrapper-email">
+          <p class="font-h5">SIGN UP FOR OUR NEWSLETTER</p>
+          <p>Be the first to new products, exclusive events, and online offers</p>
+          <a class="font-h4" href="#">Sign up For Emails</a>
         </div>
-        <div class="f_menu02 f_item02 font-h6">
-          <ul class="f_size02">
-            <li><a href="./contact.html">Contact Us</a></li>
+        
+        <!-- Info-->
+        <div class="wrapper-info ">
+          <ul>
+            <li><a href="#">Contact Us</a></li>
             <li><a href="#">Shipping</a></li>
             <li><a href="#">Order Status</a></li>
             <li><a href="#">Returns</a></li>
           </ul>
-          <ul class="f_size02">
-            <li><a href="./about.html">About Us</a></li>
+          <ul>
+            <li><a href="#">About Us</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">News</a></li>
           </ul>
         </div>
-        <div class="f_menu02 f_item03 font-h6">
-          <ul class="f_size03">
+
+        <!-- Media -->
+        <div class="wrapper-media">
+          <ul>
             <li><a href="#">Press & Media</a></li>
           </ul>
-          <ul class="f_size03">
+          <ul>
             <li><a href="#">Connect With Us</a></li>
           </ul>
         </div>
       </div>
-      <div class="f_menu03 font-h6">
-        <ul class="f_size04">
-          <li class="test"><a href="#">Cookie Policy</a></li>
+
+      <!-- Policy-->
+      <div class="wrapper-policy">
+        <ul>
+          <li><a href="#">Cookie Policy</a></li>
           <li><a href="#">Privacy Policy</a></li>
         </ul>
-        <ul  class="f_size05">
+        <ul>
           <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Sitmap</a></li>
         </ul>
       </div>
     </footer>

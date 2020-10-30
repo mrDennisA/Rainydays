@@ -23,9 +23,9 @@
   text-decoration: none;
 }
 
-body {
+/*body {
   overflow-y: scroll;
-}
+}*/
 
 [class^="wrapper"] {
   box-sizing: border-box;
@@ -89,7 +89,7 @@ body {
   background: var(--color01);
 }
 .b02 {
-  background: var(--color03);
+  background: var(--color02);
 }
 .b03 {
   background: var(--color03);

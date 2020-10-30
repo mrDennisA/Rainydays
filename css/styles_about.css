@@ -39,8 +39,8 @@ main a {
 
 .m_banner-bg {
   height: 25rem;
-  max-height: 30vw;
-  min-height: 15vh;
+  max-height: 25vw;
+  min-height: 25vh;
   background-size: cover;
   background-position: center top;
   background-image: url("../images/about-us_bannerx2.png");
@@ -51,7 +51,6 @@ main a {
   max-width: 50rem;
   margin: auto;
   background: var(--color05);
-  padding: 1rem;
 }
 
 .m_txt p {

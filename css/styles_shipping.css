@@ -130,7 +130,7 @@
   text-align: end;
 }
 
-@media only screen and (max-width: 1023.9px) {
+@media only screen and (max-width: 834.9px) {
   .wrapper {
     flex-flow: column-reverse;
     max-width: 25rem;
