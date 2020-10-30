@@ -76,7 +76,7 @@ footer a {
   padding: 1rem 0;
 }
 
-@media only screen and (max-width: 834.9px) {
+@media only screen and (max-width: 1023.9px) {
   .f_menu00 {
     justify-content: center;
     align-items: flex-start;
@@ -118,7 +118,7 @@ footer a {
   }
 }
 
-@media only screen and (min-width: 835px) {
+@media only screen and (min-width: 1024px) {
   .f_item01 {
     flex: 1;
     order: 2;

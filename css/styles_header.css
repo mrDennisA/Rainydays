@@ -58,7 +58,7 @@ input {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 834.9px) {
+@media only screen and (max-width: 1023.9px) {
   header nav {
     flex-flow: wrap;
   }
@@ -176,7 +176,7 @@ input {
   }
 }
 
-@media only screen and (min-width: 835px) {
+@media only screen and (min-width: 1024px) {
   .h_label,
   .h_toggle {
     display: none;

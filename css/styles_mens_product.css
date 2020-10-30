@@ -157,7 +157,7 @@
   padding: 2rem 0 1rem;
 }
 
-@media only screen and (max-width: 834.9px) {
+@media only screen and (max-width: 1023.9px) {
   .product {
     flex-flow: column;
     align-items: center;

@@ -59,7 +59,7 @@
   border-top: 1px var(--color02) solid;
 }
 
-@media only screen and (max-width: 834.9px) {
+@media only screen and (max-width: 1023.9px) {
   .wrapper-contact {
     min-width: 25rem;
   }
