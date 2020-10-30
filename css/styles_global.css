@@ -6,7 +6,8 @@
   --color03: #bf6930;
   --color04: #d9974c;
   --color05: #faf8f5;
-  --color06: white;
+  --color06: #ffffff;
+  --color07: #bf3030;
 
   --font01: "transat-text", sans-serif;
 
@@ -78,6 +79,9 @@ body {
 }
 .c06 {
   color: var(--color06);
+}
+.c07 {
+  color: var(--color07);
 }
 
 /* Background Color Class */

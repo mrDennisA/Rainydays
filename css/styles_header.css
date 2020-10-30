@@ -142,18 +142,18 @@ input {
     background: rgba(217, 151, 76, 0.25);
   }
 
-  input[type="text"] {
+  .h_search {
     background-repeat: no-repeat;
     background-position: 1rem;
     background-image: url(/images/icons/search.svg);
     background-size: 1.5rem;
   }
 
-  input[type="text"]::placeholder {
+  .h_search::placeholder {
     color: rgba(255, 255, 255, 0.75);
   }
 
-  input[type="text"]:focus {
+  .h_search:focus {
     color: var(--color05);
     outline-width: 0;
     background: rgba(217, 151, 76, 0.75);
@@ -223,14 +223,13 @@ input {
   .h_search {
     user-select: unset;
     height: 2rem;
-
     padding: 0 2rem;
     border: 0;
     background: rgba(217, 151, 76, 0.25);
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
   }
 
-  input[type="text"] {
+  .h_search {
     background-repeat: no-repeat;
     background-position: left center;
     background-position: 0.25rem;
@@ -238,11 +237,11 @@ input {
     background-size: 1.5rem;
   }
 
-  input[type="text"]::placeholder {
+  .h_search::placeholder {
     color: rgba(255, 255, 255, 0.75);
   }
 
-  input[type="text"]:focus {
+  .h_search:focus {
     color: var(--color05);
     outline-width: 0;
     background: rgba(217, 151, 76, 0.75);
