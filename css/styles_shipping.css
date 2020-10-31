@@ -34,11 +34,10 @@
 .details ul > ul {
   display: flex;
   justify-content: space-between;
-  max-width: 100%;
 }
 
 .details ul ul > li {
-  max-width: 100%;
+  max-width: 40%;
 }
 
 .details li,
@@ -100,7 +99,8 @@
 }
 
 .product ul > img {
-  max-width: 8rem;
+  object-fit: cover;
+  max-width: 6rem;
 }
 
 .description {
