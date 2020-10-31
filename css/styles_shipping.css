@@ -22,6 +22,10 @@
   border-bottom: var(--color07) solid;
 }
 
+.details ul {
+  width: 100%;
+}
+
 .details li {
   display: flex;
   flex-flow: column;
@@ -42,8 +46,6 @@
 }
 
 .details ul li > input {
-  box-sizing: border-box;
-  max-width: 100%;
   box-shadow: 0 0 0 1px var(--color02) solid inset;
   height: 2rem;
   color: var(--color01);
