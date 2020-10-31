@@ -50,7 +50,7 @@ input[type="checkbox"] {
 header nav,
 header a,
 .h_label,
-input {
+header input {
   color: var(--color05);
 }
 

@@ -2,12 +2,12 @@ footer {
   padding: 0 1rem;
 }
 
-.wrapper {
+.wrapper-footer {
   max-width: 25rem;
   flex-flow: column;
 }
 
-.wrapper li {
+.wrapper-footer li {
   padding: 0.5rem 0;
 }
 
@@ -93,7 +93,7 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) {
-  .wrapper {
+  .wrapper-footer {
     max-width: 80rem;
     flex-flow: row;
     justify-content: center;

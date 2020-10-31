@@ -6,7 +6,7 @@
 
   background-position: center top;
   background-size: cover;
-  background-image: url("../images/index_banner_01.png");
+  background-image: url("../images/index_banner_01.jpg");
 }
 
 .wrapper-banner > div {
@@ -97,7 +97,7 @@
 
   background-position: center bottom;
   background-size: cover;
-  background-image: url("../images/img_01.png");
+  background-image: url("../images/img_01.jpg");
 }
 
 .grid-image02 {
@@ -105,14 +105,14 @@
 
   background-position: center;
   background-size: cover;
-  background-image: url("../images/img_02.png");
+  background-image: url("../images/img_02.jpg");
 }
 .grid-image03 {
   height: 400px;
 
   background-position: center left;
   background-size: cover;
-  background-image: url("../images/img_03.png");
+  background-image: url("../images/img_03.jpg");
 }
 
 .grid-image04 {
@@ -120,7 +120,7 @@
 
   background-position: center;
   background-size: cover;
-  background-image: url("../images/img_04.png");
+  background-image: url("../images/img_04.jpg");
 }
 
 @media only screen and (min-width: 1024px) {

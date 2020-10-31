@@ -43,7 +43,7 @@ main a {
   min-height: 15vh;
   background-size: cover;
   background-position: center top;
-  background-image: url("../images/mens/mens_banner.png");
+  background-image: url("../images/mens/mens_banner.jpg");
 }
 
 .m_title {
@@ -116,17 +116,17 @@ main a {
 
 .m_lnk-img01-bg {
   background-position: center top;
-  background-image: url("../images/mens/mens_link_01.png");
+  background-image: url("../images/mens/mens_link_01.jpg");
 }
 
 .m_lnk-img02-bg {
   background-position: center top;
-  background-image: url("../images/mens/mens_link_02.png");
+  background-image: url("../images/mens/mens_link_02.jpg");
 }
 
 .m_lnk-img03-bg {
   background-position: center;
-  background-image: url("../images/mens/mens_link_03.png");
+  background-image: url("../images/mens/mens_link_03.jpg");
 }
 
 .m_lnk-btn {

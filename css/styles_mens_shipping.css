@@ -1,10 +1,11 @@
-.wrapper {
-  max-width: 50rem;
+.wrapper-main {
+  flex-flow: column-reverse;
+  max-width: 25rem;
 }
 
 /* Shipping */
 .shipping-tab {
-  width: 50%;
+  width: 100%;
 }
 
 .shipping-tab > div {
@@ -76,7 +77,7 @@
 
 /* Cart */
 .cart-tab {
-  width: 50%;
+  width: 100%;
   background: var(--color05);
 }
 
@@ -130,15 +131,17 @@
   text-align: end;
 }
 
-@media only screen and (max-width: 834.9px) {
-  .wrapper {
-    flex-flow: column-reverse;
-    max-width: 25rem;
+@media only screen and (min-width: 1024px) {
+  .wrapper-main {
+    flex-flow: row;
+    max-width: 50rem;
   }
+
   .shipping-tab {
-    width: 100%;
+    width: 50%;
   }
+
   .cart-tab {
-    width: 100%;
+    width: 50%;
   }
 }

@@ -48,15 +48,15 @@ main a {
 }
 
 .m_banner-outdoor-bg {
-  background-image: url("../images/mens/mens_banner_outdoor.jpg");
+  background-image: url("../images/womens/womens_banner_outdoor.jpg");
 }
 
 .m_banner-skiing-bg {
-  background-image: url("../images/mens/mens_banner_skiing.jpg");
+  background-image: url("../images/womens/womens_banner_skiing.jpg");
 }
 
 .m_banner-canoeing-bg {
-  background-image: url("../images/mens/mens_banner_canoeing.jpg");
+  background-image: url("../images/womens/womens_banner_canoeing.jpg");
 }
 
 .m_filter {
@@ -144,17 +144,17 @@ main a {
 
 .m_lnk-img01-bg {
   background-position: center top;
-  background-image: url("../images/mens/mens_link_01.png");
+  background-image: url("../images/womens/womens_link_01.png");
 }
 
 .m_lnk-img02-bg {
   background-position: center top;
-  background-image: url("../images/mens/mens_link_02.png");
+  background-image: url("../images/womens/womens_link_02.png");
 }
 
 .m_lnk-img03-bg {
   background-position: center;
-  background-image: url("../images/mens/mens_link_03.png");
+  background-image: url("../images/womens/womens_link_03.png");
 }
 
 .m_lnk-btn {
