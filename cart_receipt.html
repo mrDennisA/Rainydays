@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="descriotion" content="index">
-    <meta name="veiwport" content="width=device-width, initial-scal=1.0" />
-    <meta name="descriotion" content="index" />
-    <link rel="stylesheet" href="../css/styles_h.css">
-
+    <link rel="stylesheet" href="../css/styles_global.css">
+    <link rel="stylesheet" href="../css/styles_header.css">
+    <link rel="stylesheet" href="../css/styles_receipt.css">
+    <link rel="stylesheet" href="../css/styles_footer.css">
   </head>
   <body>
 
@@ -59,37 +59,86 @@
     </header>
 
     <!-- MAIN -->
-    <main>
+    <main >
+      <div class="spacing02"></div>
 
+      <div class="wrapper-receipt font-h3">
+        <ul class="receipt-customer font-h5">
+          <li class="font-h4">Hi First Last Name!</li>
+          <li>Thank you for Your purchase from RAINYDAYS</li>
+        </ul>
+        <li class="receipt-text font-h6 c02">YOUR ORDER INOFRMATION:</li>
+        <ul class="receipt-id">
+          <ul>
+            <li class="font-h5">Order ID:</li>
+            <li>A123456789</li>
+          </ul>
+          <ul>
+            <li class="font-h5">Order Date:</li>
+            <li>Date, Month, Year</li>
+          </ul>
+        </ul>
+        <ul>
+          <li class="font-h5">Bill To:</li>
+          <li>Email.Address@domain.com</li>
+        </ul>
+        <li class="receipt-text font-h6  c02">HERES WHAT YOU ORDERED:</li>
+        <ul class="receipt-description">
+          <ul>
+            <li class="font-h5">Description:</li>
+            <li>Product Name</li>
+          </ul>
+          <ul class="receipt-text-r">
+            <li class="font-h5">Price:</li>
+            <li>1,230.00</li>
+          </ul>
+        </ul>
+        <ul class="receipt-total">
+          <ul>
+            <li>Total:</li>
+            <li class="font-h4">1,230.00</li>
+        </ul>
+        </ul>
+        <li class="receipt-text font-h6  c02">PAYMENT DETAILS:</li>
+        <ul class="receipt-piad">
+          <ul class="font-h6">
+            <li>PAID FROM:</li>
+            <li>VISA - 1234:</li>
+          </ul>
+          <li class="font-h4">1,230.00</li>
+        </ul>
+      </div>
+
+      <div class="spacing02"></div>
     </main>
 
-    <!-- FOOTER -->
+    <!--Footer-->
     <footer class="font-h6 b02">
       <div class="wrapper-footer">
-
-        <!-- EMAIL -->
+        
+        <!-- Email -->
         <div class="wrapper-email">
           <p class="font-h5">SIGN UP FOR OUR NEWSLETTER</p>
           <p>Be the first to new products, exclusive events, and online offers</p>
           <a class="font-h4" href="#">Sign up For Emails</a>
         </div>
         
-        <!-- INFO -->
+        <!-- Info-->
         <div class="wrapper-info ">
           <ul>
-            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
             <li><a href="#">Shipping</a></li>
             <li><a href="#">Order Status</a></li>
             <li><a href="#">Returns</a></li>
           </ul>
           <ul>
-            <li><a href="../about.html">About Us</a></li>
+            <li><a href="./about.html">About Us</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">News</a></li>
           </ul>
         </div>
 
-        <!-- MEDIA -->
+        <!-- Media -->
         <div class="wrapper-media">
           <ul>
             <li><a href="#">Press & Media</a></li>
@@ -100,7 +149,7 @@
         </div>
       </div>
 
-      <!-- POLICY -->
+      <!-- Policy-->
       <div class="wrapper-policy">
         <ul>
           <li><a href="#">Cookie Policy</a></li>

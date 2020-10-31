@@ -1,0 +1,63 @@
+.wrapper-receipt {
+  flex-flow: column;
+  max-width: 25rem;
+  padding: 0 1rem;
+  background: var(--color05);
+}
+
+.wrapper-receipt > ul {
+  padding: 1rem 0 1rem;
+}
+
+.receipt-customer li {
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+.receipt-text {
+  padding: 1rem 0 0rem;
+  border-bottom: 1px var(--color02) solid;
+}
+
+.receipt-id {
+  display: flex;
+}
+
+.receipt-id ul {
+  width: 100%;
+}
+
+.receipt-description {
+  display: flex;
+}
+.receipt-description ul {
+  width: 100%;
+}
+
+.receipt-total {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.receipt-total ul {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.receipt-piad,
+.receipt-piad ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.receipt-text-r {
+  text-align: end;
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrapper-receipt {
+    max-width: 50rem;
+  }
+}
