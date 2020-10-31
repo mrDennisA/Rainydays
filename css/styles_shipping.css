@@ -77,7 +77,7 @@
 
 /* Cart */
 .cart-tab {
-  width: 100%;
+  max-width: 100%;
   background: var(--color05);
 }
 
@@ -138,10 +138,10 @@
   }
 
   .shipping-tab {
-    width: 50%;
+    max-width: 50%;
   }
 
   .cart-tab {
-    width: 50%;
+    max-width: 50%;
   }
 }
