@@ -7,7 +7,7 @@
     <meta name="descriotion" content="index">
     <link rel="stylesheet" href="../css/styles_global.css">
     <link rel="stylesheet" href="../css/styles_header.css">
-    <link rel="stylesheet" href="../css/styles_shipping.css">
+    <link rel="stylesheet" href="../css/styles_payment.css">
     <link rel="stylesheet" href="../css/styles_footer.css">
   </head>
   <body>
@@ -64,35 +64,38 @@
       <div class="spacing02"></div>
       <div class="wrapper-main">
 
-        <!-- Shipping -->
-        <div class="shipping-tab font-h5">
+        <!-- Payment -->
+        <div class="payment-tab font-h5">
           <div>
-            <p class="text-label01">1. SHIPPING</p>
+            <p class="text-label01"><a href="./cart_shipping.html"> 1. SHIPPING</a></p>
             <p class="text-label02">2. PAYMENT</p>
           </div>
-          <div class="details font-h6">
+          <div class="payment-details font-h6">
             <ul>
-              <li class="font-h4">Enter Your details</li>
-              <li><label for="email">Email Address:</label><input type="text" id="email"></li>
-              <ul>
-                <li><label for="fname">First Name:</label><input type="text" id="fname"></li>
-                <li><label for="lname">First Name:</label><input type="text" id="lname"></li>
-              </ul>
-              <li><label for="address01">Address:</label><input type="text" id="address01"></li>
-              <li><label for="address01">Address 2:</label><input type="text" id="address01"></li>
-              <ul>
-                <li><label for="city">First Name:</label><input type="text" id="city"></li>
-                <li><label for="country">First Name:</label><input type="text" id="country"></li>
-
-              </ul>
-              <li><label for="zipcode">Postal / Zip Code</label><input type="text" id="zipcode"></li>
-              <li><label for="phone">Phone Number</label><input type="text" id="phone"></li>
-              <div class="shipping-text">
-                <p>FREE SHIPPING</p>
-                <p>Shipping times are estimates only. Please allow 1-2 business days for processing and 3-5 business days for shipping. Shipping during holidays and to remote locations may take longer.</p>
-              </div>
-              <div class="cta-btn font-h5">
-                <a href="./cart_payment.html">CONTINUE TO SECURE PAYMENT</a>
+              <li class="font-h4">Select Payment method</li>
+              <div class="border">
+                <ul>
+                  <li>Credit Cart</li>
+                  <li>Visa</li>
+                  <li>Master Card</li>
+                </ul>
+                <li> My billing and shipping adresss are the same</li>
+                <ul class="shipping-address">
+                  <li>First Last Name</li>
+                  <li>Address</li>
+                  <li>City, Zip code</li>
+                  <li>Country</li>
+                  <li>Phone number</li>
+                </ul>
+                <li><label for="address01">Card number</label><input type="text" id="address01"></li>
+                <ul>
+                  <li><label for="city">Expiry date</label><input type="text" id="city"></li>
+                  <li><label for="country">CVX / CVV</label><input type="text" id="country"></li>
+                </ul>
+                <li><label for="cardholder">Cardholder name</label><input type="text" id="cardholder"></li>
+                <div class="cta-btn font-h5">
+                  <a href="#">PLACE ORDER</a>
+                </div>
               </div>
             </ul>
           </div>

@@ -1,13 +1,14 @@
-.wrapper {
-  max-width: 50rem;
+.wrapper-main {
+  flex-flow: column-reverse;
+  max-width: 25rem;
 }
 
 /* Shipping */
-.shipping-tab {
-  width: 50%;
+.payment-tab {
+  width: 100%;
 }
 
-.shipping-tab > div {
+.payment-tab > div {
   display: flex;
   flex-flow: row;
 }
@@ -17,41 +18,57 @@
   margin: 1rem;
 }
 
-.text-label01 {
+.text-label02 {
   border-bottom: var(--color07) solid;
 }
 
-.details li {
+.payment-details > ul {
+  width: 100%;
+}
+
+.payment-details li {
   display: flex;
   flex-flow: column;
 }
 
-.details ul > ul {
+.payment-details ul > ul {
   display: flex;
   justify-content: space-between;
 }
 
-.details ul ul > li {
-  width: 50%;
+.payment-details li,
+.payment-details p {
+  padding: 0.5rem 1em 0rem;
 }
 
-.details li,
-.details p {
-  padding: 0.5rem 1rem 0rem;
-}
-
-.details ul li > input {
+.payment-details ul li > input {
   border: 1px var(--color02) solid;
   height: 2rem;
   color: var(--color01);
 }
-.details ul li > input:focus {
+.payment-details ul li > input:focus {
   outline-width: 0;
 }
 
-.shipping-text {
+.border {
+  margin: 0 1rem;
+  padding: 0 0 1rem;
+  border: 1px var(--color02) solid;
+}
+
+.border > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shipping-address {
   display: flex;
   flex-flow: column;
+  padding: 1rem;
+}
+
+.shipping-address li {
+  margin: 0 3rem;
 }
 
 .cta-btn {
@@ -76,7 +93,7 @@
 
 /* Cart */
 .cart-tab {
-  width: 50%;
+  width: 100%;
   background: var(--color05);
 }
 
@@ -130,15 +147,17 @@
   text-align: end;
 }
 
-@media only screen and (max-width: 1029.9) {
-  .wrapper {
-    flex-flow: column-reverse;
-    max-width: 25rem;
+@media only screen and (min-width: 1024px) {
+  .wrapper-main {
+    flex-flow: row;
+    max-width: 50rem;
   }
-  .shipping-tab {
-    width: 100%;
+
+  .payment-tab {
+    width: 50%;
   }
+
   .cart-tab {
-    width: 100%;
+    width: 50%;
   }
 }
