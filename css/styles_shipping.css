@@ -43,6 +43,7 @@
 }
 
 .details ul li > input {
+  max-width: 100%;
   border: 1px var(--color02) solid;
   height: 2rem;
   color: var(--color01);
