@@ -5,7 +5,6 @@
 
 /* Shipping */
 .shipping-tab {
-  box-sizing: border-box;
   max-width: 100%;
 }
 
@@ -34,7 +33,7 @@
 }
 
 .details ul ul > li {
-  width: 50%;
+  max-width: 100%;
 }
 
 .details li,
@@ -97,7 +96,7 @@
 }
 
 .product ul > img {
-  width: 8rem;
+  max-width: 8rem;
 }
 
 .description {
