@@ -97,12 +97,13 @@
 
 /* Cart */
 .cart-tab {
+  box-sizing: border-box;
   width: 100%;
   background: var(--color05);
 }
 
 .cart-tab ul > li {
-  padding: 1rem 0 0;
+  padding: 1rem 1rem 0;
 }
 
 .product > ul {
